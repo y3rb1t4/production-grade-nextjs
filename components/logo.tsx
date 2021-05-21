@@ -7,7 +7,7 @@ const Logo = ({ ...styles }) => {
     <Link href="/">
       <a>
         <Text fontSize="30px" color="#47B881" {...styles}>
-          <strong>Known.</strong>
+          <strong>Y3rb1t4</strong>
         </Text>
       </a>
     </Link>
