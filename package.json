@@ -28,6 +28,7 @@
     "@editorjs/warning": "^1.2.0",
     "@react-hook/throttle": "^2.2.0",
     "evergreen-ui": "^5.1.2",
+    "fs": "*",
     "gray-matter": "^4.0.2",
     "lodash.orderby": "^4.6.0",
     "mongodb": "^3.6.3",
