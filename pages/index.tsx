@@ -15,17 +15,7 @@ const Home: FC<{ content: { hero: any; features: any[] } }> = ({ content }) => {
           <Hero content={content.hero} />
         </Container>
       </header>
-      <main>
-        {content.features.map((feature, i) => (
-          <FeatureSection
-            key={feature.title}
-            title={feature.title}
-            body={feature.body}
-            image="/docs.png"
-            invert={i % 2 === 0}
-          />
-        ))}
-      </main>
+      <main></main>
       <footer>
         <Pane background="overlay" paddingY={majorScale(9)}>
           <Container>hello</Container>

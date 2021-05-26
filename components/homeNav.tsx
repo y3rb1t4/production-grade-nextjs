@@ -4,6 +4,7 @@ import NextLink from 'next/link'
 import { useSession } from 'next-auth/client'
 import Container from './container'
 import Logo from './logo'
+import Toggle from './toggle'
 
 const HomeNav: FC<{ links?: { name: string; link: string }[] }> = ({ links }) => {
   const [session] = useSession()
@@ -36,6 +37,9 @@ const HomeNav: FC<{ links?: { name: string; link: string }[] }> = ({ links }) =>
                     </Button>
                   </a>
                 </NextLink>
+              </Pane>
+              <Pane paddingX={majorScale(3)}>
+                <Toggle></Toggle>
               </Pane>
             </Pane>
           </Pane>

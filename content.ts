@@ -11,14 +11,13 @@ export const home = {
   },
   published: {
     hero: {
-      title: 'A beautiful knowledge base for your whole team.',
+      title: 'Gabriel Rodriguez',
       body: 'High performing teams use Known to document and record everything. Some other cool SaaS tag line here.',
     },
     features: [
       {
         title: 'Next gen editor',
-        body:
-          'Forget about markdown and rich text. Our editor is superchared to handle any content you can throug at it.',
+        body: 'Forget about markdown and rich text. Our editor is superchared to handle any content you can throug at it.',
       },
       { title: 'Stay organized', body: 'Use folders to put your docs right where you need them when you need them.' },
       { title: 'Beautiful design', body: 'Award wining design that you will fall in love with.' },
@@ -29,7 +28,7 @@ export const home = {
 export const posts = {
   draft: [
     `---
-title: "We're hiring"
+title: "Preparando tu entorno para Virtual"
 summary: 'Will come up with summary later'
 slug: 'we-are-hiring'
 publsihedOn: ''
@@ -47,7 +46,7 @@ publsihedOn: ''
   ],
   published: [
     `---
-title: "We're hiring"
+title: "Preparando tu entorno para pentesting"
 summary: Come work at a really nice company.
 slug: we-are-hiring
 publsihedOn: '12-03-2020'
